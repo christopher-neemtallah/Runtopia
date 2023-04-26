@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #551A8B;
+  color: #fff;
+  padding: 1rem;
+}
+
+.logo {
+  flex: 1;
+}
+
+.logo h1 {
+  font-size: 2rem;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin: 0 1rem;
+  list-style: none;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #ccc;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url('Image1.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #fff;
+  color: #333;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn:hover {
+  background-color: #551A8B;
+  color: #fff;
+}
+
+.classes {
+  padding: 2rem;
+  background-color: #FFFFFF;
+}
+
+.classes h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.class-list {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.class-item {
+  flex-basis: calc(33.33% - 1rem);
+  margin-bottom: 2rem;
+}
+
+.class-item img {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.class-item h3 {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.class-item p {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.membership {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 50vh;
+  background-color: #551A8B;
+  color: #fff;
+}
+
+.membership h2 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.membership p {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #551A8B;
+  color: #fff;
+  padding: 1rem;
+}
+
+.footer-logo {
+flex: 1;
+}
+
+.footer-logo h3 {
+font-size: 2rem;
+}
+
+.footer-nav ul {
+display: flex;
+}
+
+.footer-nav li {
+margin: 0 1rem;
+list-style: none;
+}
+
+.footer-nav a {
+color: #fff;
+text-decoration: none;
+transition: all 0.3s ease-in-out;
+}
+
+.footer-nav a:hover {
+color: #ccc;
+}
+
+.footer-social ul {
+display: flex;
+}
+
+.footer-social li {
+margin: 0 0.5rem;
+list-style: none;
+}
+
+.footer-social a {
+color: #fff;
+text-decoration: none;
+transition: all 0.3s ease-in-out;
+}
+
+.footer-social a:hover {
+color: #ccc;
+}
+
+@media (max-width: 768px) {
+header {
+flex-direction: column;
+align-items: flex-start;
+}
+
+nav {
+margin-top: 1rem;
+}
+
+nav ul {
+flex-direction: column;
+}
+
+nav li {
+margin: 0.5rem 0;
+}
+
+.hero h2 {
+font-size: 2.5rem;
+margin-bottom: 0.5rem;
+}
+
+.hero p {
+font-size: 1.2rem;
+margin-bottom: 1rem;
+}
+
+.class-item {
+flex-basis: calc(50% - 1rem);
+}
+
+.membership h2 {
+font-size: 2.5rem;
+margin-bottom: 0.5rem;
+}
+
+.membership p {
+font-size: 1.2rem;
+margin-bottom: 1rem;
+}
+
+footer {
+flex-direction: column;
+align-items: center;
+}
+
+.footer-logo h3 {
+font-size: 1.5rem;
+margin-bottom: 1rem;
+}
+
+.footer-nav ul {
+margin-top: 1rem;
+}
+
+.footer-social ul {
+margin-top: 1rem;
+}
+}
